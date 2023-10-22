@@ -3,19 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TuzLOVE</title>
+    <title>Tuzlove</title>
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     
     
-    <script type="module" crossorigin src="./assets/main-517a263a.js"></script>
-    <link rel="stylesheet" href="./assets/index-2a1bd58b.css">
+    <script type="module" crossorigin src="./assets/main-aa5aa345.js"></script>
+    <link rel="stylesheet" href="./assets/index-ab0864ca.css">
   </head>
   <body>
     <div id="mapContainer"></div>
     <button
       id="btn-clear-analysis"
-      class="absolute right-2  top-4 bg-white text-blue-800 rounded-md px-2 py-1 shadow-lg border-2 border-blue-200 font-bold hidden"
+      class="absolute right-16 top-4 bg-white text-blue-800 rounded-md px-2 py-1 shadow-lg border-2 border-blue-200 font-bold hidden"
     >
       Analizi temizle
     </button>
+    <button
+      id="btn-validation"
+      class="absolute right-4 top-16 bg-red-700 text-white rounded-md px-2 py-1 shadow-lg border-2 border-red-200 font-bold w-9 h-9"
+    >
+      -
+    </button>
+    <ul
+      id="popup-invalidate"
+      class="absolute right-4 top-[102px] w-fit shadow-lg h-fit p-2 gap-2 bg-white rounded-md flex flex-col hidden select-none"
+    ></ul>
   </body>
 </html>
